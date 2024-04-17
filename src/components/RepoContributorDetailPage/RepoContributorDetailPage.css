@@ -1,0 +1,92 @@
+.detail-contributor {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  width:100%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #000;
+  color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.inner-detail-contributor{
+    max-width:70%;
+}
+
+.detail-contributor .repo-contri-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.detail-contributor .repo-contri-heading2 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.detail-contributor .repo-contri-ul {
+  list-style: none;
+  padding-left: 0;
+}
+.repo-contri-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .repo-contri-table th, .repo-contri-table td {
+    padding: 8px;
+    text-align: left;
+    /* border-bottom: 1px solid #919090; */
+  }
+  
+  .repo-contri-table td {
+    padding: 8px;
+    text-align: left;
+    margin: 2px;
+  }
+  
+  .repo-contri-table th {
+    padding: 8px;
+    text-align: left;
+    background-color: #5d5d5d;
+    font-weight: bold; border-radius */
+  }
+  
+  
+  .repo-contri-row{
+    background-color: #313131;
+    border-radius: 10px;
+  }
+  
+  .repo-contri-row:hover {
+    background-color: #1369ce;
+  }
+  
+
+.detail-contributor .repo-contri-li {
+  margin-bottom: 10px;
+}
+
+.detail-contributor .repo-contri-li:last-child {
+  margin-bottom: 0;
+}
+
+.detail-contributor .repo-contri-li:first-child {
+  font-weight: bold;
+}
+
+.detail-contributor .commit-item {
+  font-size: 14px;
+  color: #555;
+}
+
+.detail-contributor .issue-item {
+  font-size: 14px;
+  color: #555;
+}
+
+.detail-contributor .contributor-item {
+  font-size: 14px;
+  color: #555;
+}

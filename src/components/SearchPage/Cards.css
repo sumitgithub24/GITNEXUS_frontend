@@ -1,0 +1,8 @@
+.results-list{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    gap:5%;
+    flex-wrap: wrap;
+    /* background: red; */
+}

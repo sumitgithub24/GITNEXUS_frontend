@@ -1,0 +1,48 @@
+.upper-section{
+    background: #000;
+    display: flex;
+    gap:10%;
+}
+.image{
+    width: 50%;
+}
+@font-face {
+    font-family: sansman;
+    src: url("../enter-sansman/entsans.ttf");
+}
+.desc{
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+}
+.desc-heading{
+    font-size:300%;
+    font-family: sansman;
+}
+.desc-para{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.insights{
+    /* background-image: linear-gradient(to bottom right, #13ff13, #ffee04); */
+    background-image: linear-gradient(to bottom right, #06b6d4, #ffcd00);
+    background-clip:text ;
+    color: transparent
+}
+.upper-btn{
+    margin-left: 38%;
+    padding: 4px;
+    background: linear-gradient(to bottom right, #06b6d4, #00ff9d);
+    width:30%;
+    height: 6%;
+    font-size: 110%;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 26px;
+    cursor: pointer;
+}

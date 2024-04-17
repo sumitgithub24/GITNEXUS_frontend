@@ -1,0 +1,59 @@
+@font-face {
+    font-family: sansman;
+    src: url("../enter-sansman/entsans.ttf");
+}
+
+.mainBody{
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    gap:60px;
+}
+.firstsvg{
+    width:100%;
+}
+.mainBody{
+    display: flex;
+    flex-direction: column;
+}
+.upSection{
+    display: flex;
+    color:white;
+    padding: 0% 10%;
+    padding-top: 5%;
+    text-align: left;
+}
+.icons{
+    color:#0B8AC7;
+    font-size: 400%;
+}
+.icons2{
+    color:#0B8AC7;
+    font-size: 400%;
+}
+.leftDivup{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    gap:10%;
+}
+.rightDivup{
+    width:40%;
+}
+.leftdivHeading{
+    font-family: sansman;
+    font-size: 300%;
+}
+.leftdivPara{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    letter-spacing: 1px;
+}
+.downSection{
+    display: flex;
+    gap:20%;
+    color:white;
+    padding: 0% 10%;
+    padding-top: 5%;
+    text-align: left;
+}

@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5% 20%;
+    background: #000000;
+}
+
+
+@font-face {
+    font-family: "moortys";
+    src: url("./moortys/Moortys-Regular.ttf");
+}
+.logo{
+    color: #fff;
+  font-family: "moortys";
+  font-size: 250%;  
+  letter-spacing: 10px;
+  font-weight: bolder;
+}
