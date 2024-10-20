@@ -14,7 +14,6 @@ The GitNexus is a web application designed to provide analytics for GitHub users
 ## Technologies Used
 
 - Frontend: React.js, CSS 
-- Backend: Node.js, Express.js
 - GitHub API for fetching user and repository data
 
 ## Installation
